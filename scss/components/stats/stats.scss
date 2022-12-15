@@ -1,0 +1,42 @@
+.stats {
+  background: linear-gradient(to right, #6888FF 50%, #E9EFFF 50%);
+  &__options {
+    padding: 66px 0;
+    flex-wrap: wrap;
+    &-1 {
+      flex-direction: column;
+      width: 50%;
+      gap: 25px;
+    }
+    &-2 {
+      flex-direction: column;
+      width:50%;
+      gap: 25px;
+    }
+    &-percents1 {
+      font-family: $font-quicksand;
+      font-size: $font-very-lg;
+      font-weight: 400;
+      color: #FFFFFF;
+    }
+    &-description1 {
+      font-family: $font-quicksand;
+      font-size: $font-stats;
+      font-weight: 500;
+      color: #FFFFFF;
+    }
+    &-percents2 {
+      font-family: $font-quicksand;
+      font-size: $font-very-lg;
+      font-weight: 400;
+      color: #5E80FF;
+    }
+    &-description2 {
+      font-family: $font-quicksand;
+      font-size: $font-stats;
+      font-weight: 500;
+      color: #5E80FF;
+      padding-left: 120px;
+    }
+  }
+}

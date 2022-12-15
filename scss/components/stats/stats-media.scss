@@ -1,0 +1,26 @@
+.stats {
+$media-stats: 712px;
+  @media (max-width: $media-stats) {
+    & {
+      background: linear-gradient( #6888FF 50%, #E9EFFF 50%);
+    }
+    &__options {
+      flex-direction: column;
+
+      &-1 {
+        width: 100%;
+        padding-bottom: 66px;
+      }
+
+      &-2 {
+        width: 100%;
+        padding-top: 66px;
+      }
+
+      &-description2 {
+        padding-left: 0;
+      }
+    }
+  }
+
+}

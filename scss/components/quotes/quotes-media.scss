@@ -1,0 +1,34 @@
+.quotes {
+  $quotes-media: 890px;
+  @media (max-width: $quotes-media) {
+    &__page {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+
+
+      &-posts-2 {
+        display: none;
+      }
+    }
+    &__options {
+      padding: 78px 0 104px 20px;
+    }
+  }
+  $quotes-media2: 428px;
+  @media (max-width: $quotes-media2) {
+    &__page{
+      text-align: center;
+      &-text {
+        max-width: 320px;
+      }
+      &-posts {
+        max-width: 320px;
+      &-1 {
+        max-height: 100%;
+      }
+      }
+    }
+
+  }
+}

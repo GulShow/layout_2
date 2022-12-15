@@ -1,0 +1,16 @@
+.questions {
+$questions-media: 777px;
+  @media (max-width: $questions-media) {
+    &__option-answers {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  $questions-media2: 463px;
+  @media (max-width: $questions-media2) {
+    &__option {
+      max-width: 320px;
+      gap: 12px;
+    }
+  }
+}

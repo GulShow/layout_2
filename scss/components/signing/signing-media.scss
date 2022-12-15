@@ -1,0 +1,20 @@
+.signing {
+$signing-media: 888px;
+  @media(max-width: $signing-media) {
+&__info {
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+  &-text-p {
+    max-width: 100%;
+  }
+  &-form {
+    flex-direction: column;
+    &-button {
+      width: 280px;
+    }
+
+  }
+}
+  }
+}

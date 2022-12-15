@@ -1,0 +1,98 @@
+.read_app {
+  background-image: url("../assets/clouds.svg");
+  padding: 172px 0;
+
+  &__text {
+    text-align: center;
+
+    &-1 {
+      font-family: $main-font;
+      font-weight: 500;
+      font-size: $font-very-sm;
+      color: $text-color;
+    }
+
+    &-2 {
+      padding-top: 16px;
+      font-family: $font-quicksand;
+      font-weight: 500;
+      color: $text-color;
+      font-size: $font-normal;
+    }
+  }
+
+  &__features {
+    padding-top: 92px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  &__headings {
+    color: #4074F8;
+    font-family: $font-openSans;
+    font-weight: 700;
+    font-size: $font-s;
+    padding-top: 33px;
+
+  }
+  &__description {
+    color: #ADB3CB;
+    font-family: $font-openSans;
+    font-weight: 600;
+    font-size: $font-sm;
+    padding-top: 25px;
+    max-width: 140px;
+  }
+&__line {
+  &-1 {
+    width: 28px;
+    height: 1px;
+    color: #DAE4FE;
+    border: 1px solid $border-color;
+  }
+}
+  &__buttons {
+    padding-top: 92px;
+    justify-content: center;
+    gap: 16px;
+    &-1 {
+      background: #FFD7D7;
+      color:#D43F3F;
+      font-family: $font-quicksand;
+      font-weight: 700;
+      font-size: $font-s;
+      width: 113px;
+      height: 43px;
+      line-height: 16px;
+      padding-left: 18px;
+      border-radius: 2px;
+    }
+    &-2 {
+      background: #D2E1FF;
+      color: #3A79FF;
+      font-family: $font-quicksand;
+      font-weight: 700;
+      font-size: $font-s;
+      width: 113px;
+      height: 43px;
+      line-height: 16px;
+      padding-left: 18px;
+      border-radius: 2px;
+
+    }
+  }
+  &__lines {
+    &-1 {
+      width: 15px;
+      height: 1px;
+      color: #DAE4FE;
+      border: 1px solid $border-color;
+    }
+    &-p {
+      color: #ADB3CB;
+      font-family: $font-openSans;
+      font-size: $font-sm;
+      padding: 0 16px;
+    }
+  }
+}

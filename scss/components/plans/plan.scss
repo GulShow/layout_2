@@ -1,0 +1,77 @@
+.plans {
+  background-color: #F5F8FF;
+  border-bottom: 1px solid $border-color;
+
+  &__manage {
+
+    &-1 {
+      font-family: $main-font;
+      font-weight: 500;
+      font-size: $font-very-sm;
+      color: $text-color;
+
+    }
+
+    &-2 {
+      padding-top: 27px;
+      font-family: $font-quicksand;
+      font-weight: 500;
+      color: $text-color;
+      font-size: $font-lg;
+    }
+
+    &-3 {
+      max-width: 413px;
+      padding-top: 27px;
+      font-family: $main-font;
+      font-weight: 400;
+      color: #8D96BD;
+      font-size: $font-md;
+    }
+
+    &-buttons {
+      padding-top: 47px;
+      &-video {
+        background: #4C85FF;
+        width: 130px;
+        height: 43px;
+        box-shadow: 0 5px 15px rgba(188, 199, 255, 0.75);
+        font-family: $font-quicksand;
+        font-style: normal;
+        font-weight: 700;
+        font-size: $font-s;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding-left: 25px;
+        i {
+          color: #FFFFFF;
+          width: 7px;
+          height: 7px;
+         padding: 0 0 13px 6px;
+        }
+      }
+
+      &-features {
+        width: 130px;
+        height: 43px;
+        border: 1px solid #D1D1E4;
+        background: #F5F8FF;
+        font-family: $font-quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: $font-s;
+        line-height: 16px;
+        color: #ADB4D2;
+        padding-left: 21px;
+
+      }
+    }
+  }
+
+  &__image {
+    margin-right: -290px;
+  }
+  .plan {
+    padding-top: 208px;
+  }
+}

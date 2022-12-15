@@ -1,0 +1,84 @@
+.banner {
+  background-image: url("../assets/hero image.svg");
+  height: $banner_height;
+  border-bottom: 1px solid $border-color;
+  @extend %bg-default;
+
+  &__text {
+    padding-top: 92px;
+    flex-direction: column;
+    text-align: center;
+
+
+    &-1 {
+      font-family: $main-font;
+      font-weight: 500;
+      font-size: $font-very-sm;
+      color: $text-color;
+      text-transform: uppercase;
+    }
+
+    &-2 {
+      padding-top: 16px;
+      font-family: $font-quicksand;
+      font-weight: 300;
+      color: $text-color;
+      font-size: $font-lg;
+    }
+
+    &-3 {
+      max-width: 502px;
+      padding-top: 28px;
+      font-family: $main-font;
+      font-weight: 400;
+      color: #8D96BD;
+      font-size: $font-md;
+    }
+
+    a {
+      display: inline-block;
+      position: absolute;
+      width: 52px;
+      height: 52px;
+      left: 710px;
+      top: 386px;
+      background: #FFFFFF;
+      box-shadow: 0 10px 50px rgba(201, 209, 231, 0.6);
+      border-radius: 50%;
+
+      i {
+        color: #5E81FF;
+        width: 10px;
+        height: 11px;
+        top: 15px;
+        right: 23px;
+        position: absolute;
+      }
+    }
+  }
+
+  &__options {
+    justify-content: center;
+    gap: 12px;
+    margin-top: 250px;
+    padding-left: 0;
+
+    &-active {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #5283FF;
+      border-radius: 50%;
+    }
+
+    &-default {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #D1D6E3;
+      border-radius: 50%;
+
+    }
+  }
+}
+

@@ -1,0 +1,38 @@
+.banner {
+  $media-banner: 1440px;
+  @media (max-width: $media-banner) {
+    &__text {
+      &-play {
+        padding: 20px 0 170px 0;
+
+        a {
+          position: initial;
+
+          i {
+            position: initial;
+          }
+        }
+      }
+    }
+    .bi-play-fill::before {
+      content: "\f4f4";
+      padding-top: 18px;
+    }
+    &__options {
+      margin-top: 0;
+    }
+  }
+  $media-banner2: 582px;
+  @media (max-width: $media-banner2) {
+    &__text {
+      &-3 {
+        max-width: 280px;
+      }
+
+
+      &-play {
+        padding-bottom: 100px;
+      }
+    }
+  }
+}

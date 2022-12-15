@@ -1,0 +1,26 @@
+.sponsors {
+  $media-sponsors: 900px;
+  @media (max-width: 900px) {
+    &__list {
+      ul {
+        gap: 0;
+        flex-wrap: wrap;
+        li {
+          width: 50%;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    }
+  }
+  $media-sponsors2: 400px;
+  @media (max-width: $media-sponsors2) {
+    ul{
+      flex-direction: column;
+      li {
+        width: 100%;
+
+      }
+    }
+  }
+}

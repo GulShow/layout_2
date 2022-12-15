@@ -1,0 +1,103 @@
+.quotes {
+  background-color: #EAF0FF;
+  overflow-x: hidden;
+  padding-top: 146px;
+  &__page {
+
+    gap: 90px;
+
+    &-text {
+      max-width: 333px;
+
+
+      &-h2 {
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $font-very-sm;
+        color: $text-color;
+      }
+
+      &-p {
+        font-family: $font-quicksand;
+        font-size: 36px;
+        color: $text-color;
+        font-weight: 500;
+        padding: 31px 0 14px 0;
+      }
+
+      &-p2 {
+        font-family: $font-openSans;
+        font-weight: 600;
+        color: #A4ABC8;
+        font-size: $font-sm;
+      }
+    }
+
+    &-posts {
+position: relative;
+      &-1 {
+        width: 423px;
+        background-color: white;
+        border: 1px solid #DFE2EF;
+        z-index: 0;
+        max-height: 175px;
+        box-shadow: 0 5px 50px 0 #F3F5FA;
+
+        &-p {
+          font-family: $main-font;
+          font-weight: 400;
+          font-size: $font-s;
+          color: #676F95;
+          padding: 41px 70px 53px 70px;
+        }
+        &-avatar {
+          width: 62px;
+          position: absolute;
+          z-index: 1;
+          left: 180px;
+          bottom: -30px;
+        }
+      }
+      &-2 {
+        width: 423px;
+        background-color: #D8E3FE;
+        border: 1px solid #DFE2EF;
+        height: 175px;
+        position: absolute;
+        left: 500px;
+        box-shadow: 0 5px 50px 0 #F3F5FA;
+
+        &-p {
+          font-family: $main-font;
+          font-weight: 400;
+          font-size: $font-s;
+          color: #8D96BD;
+          max-width: 283px;
+          padding: 41px 0 0 70px;
+        }
+      }
+    }
+  }
+  &__options {
+    gap: 12px;
+    justify-content: center;
+    padding: 78px 0 104px 420px;
+
+    &-active {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      background: #5283FF;
+      border-radius: 50%;
+    }
+
+    &-default {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      background: #D1D6E3;
+      border-radius: 50%;
+
+    }
+  }
+}

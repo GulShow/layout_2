@@ -1,0 +1,134 @@
+.blog {
+  padding: 104px 0 104px 0 ;
+  background-color: #F5F8FF;
+  border-bottom: 1px solid $border-color;
+
+  &__text {
+    flex-direction: column;
+    gap: 20px;
+
+    &-p {
+      color: $text-color;
+      font-weight: 500;
+      font-size: $font-very-sm;
+      font-family: $main-font;
+    }
+
+    &-h1 {
+      font-weight: 500;
+      font-family: $font-quicksand;
+      font-size: $font-normal;
+      color: $text-color;
+    }
+  }
+
+  &__plan {
+    padding-top: 92px;
+    &-block {
+      max-width: 958px;
+      background-color: #FFFFFF;
+      border: 1px solid $border-color;
+      margin: 0 75px 0 75px;
+      gap: 67px;
+
+      &-images {
+        padding: 63px 0 63px 35px;
+        gap: 13px;
+        &-1 {
+          height: 267px;
+          width: 267px;
+        }
+        &-2,
+        &-3 {
+          height: 127px;
+          width: 127px;
+        }
+        &-small {
+          flex-direction: column;
+          gap: 14px;
+        }
+      }
+    }
+
+    &-arrows {
+      color: #A8B4E5;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+    }
+
+    &-text {
+      padding: 63px 41px 63px 0;
+      &-h2 {
+        font-family: $font-quicksand;
+        font-weight: 400;
+        font-size: 36px;
+        color: $text-color;
+      }
+
+      &-p {
+        font-family: $main-font;
+        font-weight: 400;
+        font-size: $font-s;
+        color: $accent-color;
+        width: 408px;
+        margin-top: 32px;
+      }
+
+      &-buttons {
+        gap: 8px;
+        margin-top: 31px;
+
+        &-1 {
+          background: #D2E1FF;
+          color: #3A79FF;
+          font-family: $font-quicksand;
+          font-weight: 700;
+          font-size: $font-s;
+          width: 113px;
+          height: 43px;
+          line-height: 16px;
+          padding-left: 23px;
+          border-radius: 2px;
+        }
+
+        &-2 {
+          background: #FFFFFF;
+          color: #A6B6DA;
+          font-family: $font-quicksand;
+          font-weight: 700;
+          font-size: $font-s;
+          width: 211px;
+          height: 43px;
+          line-height: 16px;
+          padding-left: 23px;
+          border-radius: 2px;
+        }
+
+      }
+    }
+  }
+
+  &__options {
+    gap: 12px;
+    justify-content: center;
+    padding: 101px 0 0 0;
+
+    &-active {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #5283FF;
+      border-radius: 50%;
+    }
+
+    &-default {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #D1D6E3;
+      border-radius: 50%;
+
+    }
+  }
+}

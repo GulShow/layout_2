@@ -1,0 +1,11 @@
+.sponsors {
+  padding: 62px 0;
+  border-bottom: 1px solid $border-color;
+
+  &__list {
+    ul {
+      justify-content: center;
+      gap: 77px;
+    }
+  }
+}
